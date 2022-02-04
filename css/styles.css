@@ -7,14 +7,20 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   color: #2e363e;
   font-family: "Mochiy Pop P One", sans-serif;
   padding-top: 30px;
   background-color: #c8eeff;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
