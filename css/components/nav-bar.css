@@ -42,3 +42,16 @@
   align-items: center;
   position: absolute;
 }
+
+.nav__dotnotification__header {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  top: -2px;
+  left: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+}
